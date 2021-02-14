@@ -1,0 +1,127 @@
+body {
+  width: 1200px;
+  margin: 0 auto;
+}
+.wrapper {
+  background: url(../img/burning-man.png);
+  height: 899px;
+  
+}
+.header {
+  display: flex;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+li {
+  margin-top: 71px;
+  list-style-type: none;
+  margin-left: 19px;
+  margin-right: 19px;
+}
+li:last-child {
+  margin-left: 499px;
+}
+li:first-child {
+  margin-right: 69px;
+  margin-left: 99px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: green;
+  cursor: pointer;
+}
+h5 {
+  color: white;
+  font-size: 30px;
+  margin-left: 216px;
+  margin-top: 221px;
+
+}
+
+h1 {
+  color: white;
+  font-size: 100px;
+  margin-left: 216px;
+  margin-top: 34px;
+  margin-bottom: 1px;
+}
+button {
+  background-color: green;
+  border: none;
+  color: white;
+  font-size: 17px;
+  margin-left: 239px;
+  margin-top: 11px;
+  border: 1px solid black;
+  border-radius: 5%;
+}
+
+button:hover {
+  background: greenyellow;
+  cursor: pointer;
+  color: darkblue;
+}
+h3 {
+  font-size: 50px;
+  margin-left: 216px;
+}
+.main-text {
+  float: left;
+  width: 51%;
+}
+.section_2 {
+  text-align: left;
+}
+.flexbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 99%;
+  height: 299px;
+}
+.flexbox-about {
+  font-size: 14px;
+  width: 564px;
+}
+
+h3 {
+  margin-left: 0;
+}
+.discr {
+  color: black;
+  margin: 0;
+  /* display: inline-block;
+    text-align: left; */
+  justify-content: left;
+}
+.footer:last-child {
+  margin-top: 99px;
+}
+.footer {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 99%;
+  height: 299px;
+  font-size: 14px;
+}
+
+.suname {
+  text-align: left;
+}
+.project:last-child {
+  margin-left: 55px;
+}
+
+.suname {
+  margin-right: 721px;
+}
